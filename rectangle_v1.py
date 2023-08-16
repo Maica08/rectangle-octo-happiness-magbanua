@@ -8,7 +8,7 @@ Args:
 Return
     The calculated area of the rectangle
 '''
-def calculate_area(length, width):
+def calculate_area(length, width) -> float:
     return length * width
 
 '''
@@ -21,7 +21,7 @@ Args:
 Return
     The calculated perimeter of the rectangle
 '''
-def calculate_perimeter(length, width):
+def calculate_perimeter(length, width) -> float:
     return 2 * (length + width)
 
 
